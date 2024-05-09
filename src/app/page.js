@@ -2,6 +2,6 @@
 
 export default function Home() {
   return (
-    <div>Ini page js</div>
+    <div className="btn btn-warning">Ini page js</div>
   );
 }
