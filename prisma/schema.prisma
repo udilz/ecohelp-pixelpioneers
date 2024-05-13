@@ -37,7 +37,7 @@ model Problem {
 model Organization {
   id String @id @default(cuid())
   name String
-  password String
+  address String
   userId String
   user User @relation(fields: [userId], references: [id])
   events Event[]
