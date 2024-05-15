@@ -1,0 +1,11 @@
+### Register
+
+POST http://localhost:3000/api/v1/auth/register 
+Content-Type: application/json
+
+{
+    "name" : "doraemon",
+    "email" : "doraemon@devscale.id",
+    "password" : "123456",
+    "role" : "USER"
+}
