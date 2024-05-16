@@ -33,7 +33,7 @@ export async function POST(req) {
   return new Response(JSON.stringify({ message: "Login success!" }), {
     status: 200,
     headers: {
-      "Set-Cookie": `token=${token}`,
+      "Set-Cookie": `token=${token}; path=/`,
     },
   });
 }
